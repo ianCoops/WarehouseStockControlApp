@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ianle.warehousestockcontrolapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.MainMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adminLogIn">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.adminLogIn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".operativeLogIn">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.operativeLogIn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OpMainMenu">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.OpMainMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addRemoveUser">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.addRemoveUser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addAdmin">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.addAdmin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addRemoveChoose">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.addRemoveChoose" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addOperative">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.addOperative" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".removeAdmin">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.removeAdmin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddRemoveChooseOperative">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AddRemoveChooseOperative" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddRemoveCustomer">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AddRemoveCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddCustomer">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AddCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RemoveCustomer">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.RemoveCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RemoveOperative">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.RemoveOperative" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PutawayStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.PutawayStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseAisle">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.ChooseAisle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LocatePallet">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.LocatePallet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FindMoveStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.FindMoveStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RemoveStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.RemoveStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddRemoveStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AddRemoveStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FindStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.FindStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayStock">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.DisplayStock" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StockCheck">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.StockCheck" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleG_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleG_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_G">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_G" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleH_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AiselH_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_H">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_H" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleI_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleI_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_I">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_I" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleJ_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleJ_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_J">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_J" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleK_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleK_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleL_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleL_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_K">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_K" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_L">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_L" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AisleM_Check">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.AisleM_Check" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditStock_M">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EditStock_M" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StockReport">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.StockReport" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StockHolding">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.StockHolding" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PickList">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.PickList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayPickList">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.DisplayPickList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EmptyLocations">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.EmptyLocations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovePallet">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.MovePallet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovePalletNew">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.MovePalletNew" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityLog">
+            <intent-filter>
+                <action android:name="com.example.ianle.warehousestockcontrolapp.ActivityLog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

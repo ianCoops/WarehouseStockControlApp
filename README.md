@@ -1,6 +1,6 @@
 # WarehouseStockControlApp
 
-Android application designed to run on an interative mobile wearable device, to assist in the stock control of unprocessed stock in a plastic recycling business.
+Android application designed to run on an interactive mobile wearable device, to assist in the stock control of unprocessed stock in a plastic recycling business.
 
 ## Examples
 
